@@ -1,12 +1,23 @@
-# Financeiro PWA
+# Finanças Pro — PWA
 
-Aplicativo PWA simples para registrar receitas e despesas, com saldo total, persistência no navegador e suporte a instalação no Android.
+Aplicativo financeiro em formato PWA com foco em Android e uso offline.
+
+## Recursos
+- Lançamento de receitas e despesas
+- Filtros, busca e ordenação
+- Orçamentos por categoria
+- Metas financeiras
+- Dívidas e parcelamentos
+- Relatórios mensais
+- Gráficos em SVG
+- Exportação JSON e CSV
+- Importação de backup
+- Modo offline e instalação como app
 
 ## Como usar
-1. Abra o `index.html` em um servidor local.
-2. Adicione receitas e despesas.
-3. Instale pelo navegador quando aparecer a opção.
+1. Abra `index.html` em um servidor local ou publique em HTTPS.
+2. No Android, abra no navegador e use “Instalar app”.
+3. Os dados ficam salvos no navegador.
 
-## Observações
-- Os dados ficam salvos no `localStorage` do navegador.
-- O app funciona offline após o primeiro carregamento.
+## Observação
+Os dados são locais e não vão para servidor nenhum.
